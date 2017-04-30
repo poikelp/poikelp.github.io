@@ -7,7 +7,7 @@ body {
 	background-size: cover;
 	background-color: #000000;
 }
-a#link{
+a.link{
 	color: yellow;
 }
 
@@ -21,7 +21,7 @@ div#games{
 	max-width: 100px;
 	height: auto;
 }
-#imgTanni{
+.imgTanni{
 	max-width: 20px;
 	height: auto;
 }
