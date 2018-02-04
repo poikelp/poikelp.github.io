@@ -6,6 +6,8 @@ body {
 	background-attachment: fixed;
 	background-size: cover;
 	background-color: #000000;
+	font-family: 'Ceviche One', cursive;
+	font-family: 'Aclonica', sans-serif;
 }
 a.link{
 	color: yellow;
