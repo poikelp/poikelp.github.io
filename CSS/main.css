@@ -17,10 +17,17 @@ div{
 	text-align: center;
 }
 body, html{
-	height: 100%;
-	width: 100%
+	color: orangered;
+	font-size: 2.0em;
 }
-div#start{
+
+
+#start{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 	height: 100%;
 	width: 100%;
 }
@@ -41,22 +48,47 @@ div#start{
 	opacity: 0.2;
 	z-index: 2;
 }
-div#games{
-	margin-top: 200px;
-}
-#imgWorks{
-	max-width: 100px;
-	height: auto;
-}
-.imgTanni{
-	max-width: 20px;
-	height: auto;
+
+#main{
+	position: absolute;
+	top: 100%;
+	left: 5%;
+	right: 5%;
+	padding-bottom: 10%;
+	margin: auto;
+	background: rgba(255 ,255 ,255 , 0.2);
 }
 
-div#botom{
-	margin-top: 300px;
+#box{
+	
+	display: block;
+	
+	margin: auto;
+	width: 100%;
 }
 
-a#twitter{
+#projects{
+	
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.content{
+	max-width: 30%;
+	height: 255px;
+	margin: 3%;
+	background: rgba(252, 126, 67, 0.2)
+}
+
+.img{
+	width: 255px;
+	height: 255px;
+}
+
+#twitter{
+	font-size: 0.5em;
 	color: skyblue;
 }
